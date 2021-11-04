@@ -1,0 +1,19 @@
+{
+  "name": "aarachnevania",
+  "version": "1.0.0",
+  "description": "Created for game off 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeekPizza/Aarachnevania.git"
+  },
+  "author": "Nick Piazza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NeekPizza/Aarachnevania/issues"
+  },
+  "homepage": "https://github.com/NeekPizza/Aarachnevania#readme"
+}
