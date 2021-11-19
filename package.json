@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NeekPizza/Aarachnevania/issues"
   },
-  "homepage": "https://github.com/NeekPizza/Aarachnevania#readme"
+  "homepage": "https://github.com/NeekPizza/Aarachnevania#readme",
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
 }
