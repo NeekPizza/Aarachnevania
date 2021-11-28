@@ -6,7 +6,6 @@ var gameOver = false;
 var scoreText;
 
 class SceneMain extends Phaser.Scene {
-  player;
   constructor() {
     super('SceneMain');
   }
