@@ -22,6 +22,9 @@ class SceneMain extends Phaser.Scene {
   }
 
   create() {
+    // Cursor
+    this.input.setDefaultCursor('url(assets/crosshair.cur), pointer');
+
     //  A simple background for our game
     this.add.image(400, 300, 'sky');
 
@@ -70,6 +73,7 @@ class SceneMain extends Phaser.Scene {
 
     this.physics.add.collider(this.player, bombs, this.hitBomb, null, this);
   }
+
   update() {
     if (gameOver) {
       return;
